@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/name"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Role"
+            android:id="@+id/role"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send data"
+            android:id="@+id/request"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultApi"
+            android:layout_marginTop="12sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fetch data"
+            android:id="@+id/fbt"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="70sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -7,10 +7,8 @@ import javax.annotation.processing.Generated;
 @Generated("jsonschema2pojo")
 public class UserDataModel {
     @SerializedName("name")
-    @Expose
     private String name;
     @SerializedName("job")
-    @Expose
     private String job;
 
     public UserDataModel(String name, String job) {
